@@ -79,6 +79,9 @@ TBD ...
   To be able to arm without an airspeed sensor set `SYS_HAS_NUM_ASPD` to 0.
   To not use the airspeed sensor data in the controller, set `FW_USE_AIRSPD` to 0.
   Added to PX4 in [PX4-Autopilot#22510](https://github.com/PX4/PX4-Autopilot/pull/22510).
+- [Auto-trimming](../config_fw/trimming_guide_fixedwing.md#auto-trimming) (enabled by default).
+  Automatically calibrates trim parameters and then continuously adjusts trim of the aircraft during flight.
+  Added to PX4 in [PX4-Autopilot#22668](https://github.com/PX4/PX4-Autopilot/pull/22668).
 
 ### Rover 
 
